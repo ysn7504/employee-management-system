@@ -1,12 +1,12 @@
 # employee-management-system
 
-Building a database as Employee attendence system to track employee attendance, including clock-in and clock-out times, leaves, and absences using Mysql.
+Building a database as Employee attendance system to track employee attendance, including clock-in and clock-out times, leaves, and absences using Mysql.
 
 Database schema:
 
-1 Employees - It stores name,emai.id,department
+1 Employees - It stores name,email.id,department
 
-2 Attendence records - It stores employee id,clock in time,clock out time, work date
+2 Attendance records - It stores employee id,clock in time,clock out time, work date
 
 3 Department - It stores department id,department name,manager ID
 
@@ -26,4 +26,4 @@ Created a stored procedure to retrieve employees present or not
 
 iv) Tables:
 
- Employees, AttendanceRecords, LeaveRequests, Departments
+ Employees, AttendanceRecords, LeaveRequests, Departments.
